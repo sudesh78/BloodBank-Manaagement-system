@@ -1,0 +1,120 @@
+ *{ margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+} 
+.nav{
+    background-color: #000 ! important;
+}
+.navbar-default{
+    background-color: #ff0006 !important;
+    border-color: #ff0006 !important;
+} 
+.navbar a{
+    width: 6vh;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: bold;
+  color: white !important;
+}  
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-brand > img {
+  display: block;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle:focus {
+  outline: 0;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+ .navbar-nav li a{
+    color: white !important;
+    width:10vh;
+    padding: 2vh;
+    font-size: 2.1vh;
+ }
+ .nav-item{
+    color: #FFFFFF;
+ }
+.text-primary{
+    color: #ff0006 !important;
+}
+.foot-sec{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(213, 218, 223);
+}
+.card h3,img{
+  padding-bottom: 20px;
+  align-self: center;
+}
+.foot{
+  padding: 20px;
+  background-color: #e81e1e;
+}
+.foot p{
+  text-align: center;
+}
+.cont{
+    font-size: 0.95em;
+}
+.contt{
+  color: #20e652;
+  letter-spacing: 1px;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}

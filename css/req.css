@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .hero {
+    background-image: url("../images/req.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 110em;
+  }
+  
+  .main {
+    width: 45%;
+    height: 1520px;
+    background-color: #f92222;
+    margin: 50px 35%;
+    border-radius: 20px 20px 30px 30px;
+  }
+  
+  .s-upper {
+    color: white;
+    background-color: #f13434;
+    margin-top: 0em;
+    margin-left: 0em;
+    font-size: 1vh;
+    padding-top: 2em;
+    padding-left: 2em;
+    word-spacing: 5px;
+  }
+  
+  .u-text {
+    margin-left: 40%;
+  }
+  
+  .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .head p {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+  }
+  
+  .color {
+    color: #d30c0c;
+  }
+  
+  .form {
+    background-color: white;
+    width: 100%;
+    height: 1375px;
+    padding: 15px;
+  }
+  
+  .f {
+    float: left;
+  }
+  
+  .name {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin: 1px 0 0 0.3%;
+  }
+  
+  .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  
+
+.btns {
+  background: #e1e5d8;
+  color: #0d0d0d;
+  font-weight: bold;
+  border-radius: 40px;
+  width: 12em;
+}
+.btns:hover{
+  color: #ff4d24;
+  background-color: #59cc8a;
+}
+
+  
+.subm {
+  text-align: center;
+  padding-top: 40px;
+}
+  
